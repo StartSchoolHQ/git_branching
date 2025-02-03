@@ -2,6 +2,7 @@
 
 ## 1. Introduction to Git Branching
 Some awesome information here
+Some information from the master that is not the same as the one on other branches. 
 ### Concepts to Cover:
 - **What are branches?**
   - Git branches are a pointer to a snapshot of your changes.
