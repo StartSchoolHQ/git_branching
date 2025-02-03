@@ -1,10 +1,11 @@
 # Git Branching and Conflict Resolution
 
 ## 1. Introduction to Git Branching
+there is some information here that could be useful
 
 ### Concepts to Cover:
 - **What are branches?**
-  - Git branches are effectively a pointer to a snapshot of your changes.
+  - Git branches are a pointer to a snapshot of your changes.
 - **Why use branches?**
   - To isolate features or bug fixes.
   - To enable collaboration without disrupting the main codebase.
@@ -44,16 +45,16 @@ git add file.txt
 git commit -m "Updated file in feature branch"
 ```
 
-#### Switch back to the `main` branch:
+#### Switch back to the `master` branch:
 ```bash
 git checkout main
 ```
 
-#### Modify `file.txt` in the `main` branch:
+#### Modify `file.txt` in the `master` branch:
 ```bash
-echo "Adding another line in main branch" >> file.txt
+echo "Adding another line in master branch" >> file.txt
 git add file.txt
-git commit -m "Updated file in main branch"
+git commit -m "Updated file in master branch"
 ```
 
 ---
