@@ -26,6 +26,7 @@ More information here
 - `git stash`: Records the current state of the working directory and the index, but want to go back to a clean working directory.
 - `git stash pop`
 - `git diff`
+- `git restore`
 ---
 
 ## 2. Creating and Working with Branches
