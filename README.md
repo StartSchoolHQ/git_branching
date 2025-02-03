@@ -24,7 +24,7 @@ More information here
 - `git commit`: Creates a new commit containing the current contents of the index and the given log message describing the changes.
 - `git pull`: Copies changes from a remote repository directly into your working directory
 - `git stash`: Records the current state of the working directory and the index, but want to go back to a clean working directory.
-- `git stash pop`
+- `git stash pop`:  Remove a single stashed state from the stash list and apply it on top of the current working tree state.
 - `git diff`
 - `git restore`
 ---
