@@ -1,7 +1,6 @@
 # Git Branching and Conflict Resolution
 
 ## 1. Introduction to Git Branching
-there is some information here that could be useful
 
 ### Concepts to Cover:
 - **What are branches?**
@@ -20,8 +19,11 @@ there is some information here that could be useful
 - `git checkout -b <branch_name>`: Create and switch to a new branch
 - `git branch -d <branch_name>`: Delete a specified branch
 - `git add`:  Add a change in the working directory to the staging area (without it, no git commit would ever do anything)
-- `git commit`: 
-
+- `git commit`: Creates a new commit containing the current contents of the index and the given log message describing the changes.
+- `git pull`: Copies changes from a remote repository directly into your working directory
+- `git stash`: Records the current state of the working directory and the index, but want to go back to a clean working directory.
+- `git stash pop`
+- `git diff`
 ---
 
 ## 2. Creating and Working with Branches
