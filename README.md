@@ -1,7 +1,7 @@
 # Git Branching and Conflict Resolution
 
 ## 1. Introduction to Git Branching
-
+Some awesome information here
 ### Concepts to Cover:
 - **What are branches?**
   - Git branches are a pointer to a snapshot of your changes.
